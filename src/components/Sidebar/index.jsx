@@ -4,7 +4,7 @@ import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
-
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 function Sidebar() {
   return (
     <div className="nav-bar">
@@ -34,7 +34,15 @@ function Sidebar() {
         </NavLink>
       </nav>
       <ul>
-        <li></li>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/rohit-yadav-438a071b4/"
+          >
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+        </li>
       </ul>
     </div>
   )
